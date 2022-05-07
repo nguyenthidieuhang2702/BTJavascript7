@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Bài 2 -->
+    <div class="containe">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header"></div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số n</label>
+                            <input id="soN" type="text" class="form-control" />
+                        </div>
+                        <button id="themSo" class="btn btn-success">Thêm số</button>
+                        <div id="footerthemSo" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">Tổng số dương</div>
+                    <div class="card-body">
+                        <button id="tongSoDuong" class="btn btn-success">Tinh tổng</button>
+                        <div id="footertongSoDuong" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">Đếm số dương</div>
+                    <div class="card-body">
+                        <button id="demSoDuong" class="btn btn-success">Đếm số </button>
+                        <div id="footerdemSoDuong" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">Tìm số nhỏ nhất</div>
+                    <div class="card-body">
+                        <button id="timSoNhoNhat" class="btn btn-success">Tìm số nhỏ nhất</button>
+                        <div id="footerTimSoNhoNhat" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">Tìm số dương nhỏ nhất</div>
+                    <div class="card-body">
+                        <button id="timSoDuongNhoNhat" class="btn btn-success">Tìm số dương nhỏ nhất</button>
+                        <div id="footerTimSoDuongNhoNhat" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">Tìm số chẵn cuối cùng</div>
+                    <div class="card-body">
+                        <button id="timSoChanCuoiCung" class="btn btn-success">Tìm số chẵn</button>
+                        <div id="footerTimSoChanCuoiCung" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">Đổi chỗ</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số vị trí 1</label>
+                            <input id="viTri1" type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số vị trí 2</label>
+                            <input id="viTri2" type="text" class="form-control" />
+                        </div>
+                        <button id="doiCho" class="btn btn-success">Đổi chỗ</button>
+                        <div id="footerDoiCho" class="card-footer text-muted"></div>
+                    </div>
+
+
+                    <div class="card-header">Sắp xếp tăng dần</div>
+                    <div class="card-body">
+                        <button id="sapXepTangDan" class="btn btn-success">Sắp xếp</button>
+                        <div id="footersapXepTangDan" class="card-footer text-muted"></div>
+                    </div>
+
+
+                    <div class="card-header">Tìm số nguyên tố đầu tiên</div>
+                    <div class="card-body">
+                        <button id="timSoNguyenToDauTien" class="btn btn-success">Tìm số nguyên tố đầu tiên</button>
+                        <div id="footerTimSoNguyenToDauTien" class="card-footer text-muted"></div>
+                    </div>
+
+
+                    <div class="card-header">Đếm số nguyên</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số</label>
+                            <input id="soN" type="text" class="form-control" />
+                        </div>
+                        <button id="themSo" class="btn btn-success">Thêm số</button>
+                        <div id="footerthemSo" class="card-footer text-muted"></div>
+                        <button id="demSoNguyen" class="btn btn-success">Đếm số nguyên</button>
+                        <div id="footerDemSoNguyen" class="card-footer text-muted"></div>
+                    </div>
+
+                    <div class="card-header">So sánh số lượng số âm và dương</div>
+                    <div class="card-body">
+                        <button id="soSanhSoLuong" class="btn btn-success">So sánh</button>
+                        <div id="footerSoSanhSoLuong" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
